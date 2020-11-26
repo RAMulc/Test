@@ -4,7 +4,8 @@
   "description": "Test",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "lint": "eslint **/*.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,9 @@
     "url": "https://github.com/RAMulc/Test/issues"
   },
   "homepage": "https://github.com/RAMulc/Test#readme",
-  "dependencies": {},
+  "dependencies": {
+    "prettier": "^2.2.0"
+  },
   "devDependencies": {
     "eslint": "^7.14.0",
     "eslint-config-airbnb-base": "^14.2.1",
