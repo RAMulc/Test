@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run lint",
     "start": "node index.js",
-    "lint": "eslint **/*.js",
+    "lint": "eslint \"**/*.js\"",
     "fix": "eslint --fix ."
   },
   "repository": {
@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/RAMulc/Test#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql2": "^2.2.5",
     "prettier": "^2.2.0"
   },
   "devDependencies": {
